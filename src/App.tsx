@@ -1,4 +1,5 @@
 import React from 'react';
+import MuiButton from './component/MuiButton';
 import MuiTypography from './component/MuiTypography';
 
 type Props = {};
@@ -6,7 +7,8 @@ type Props = {};
 const App = (props: Props) => {
 	return (
 		<div className="app">
-			<MuiTypography />
+			{/* <MuiTypography /> */}
+			<MuiButton />
 		</div>
 	);
 };

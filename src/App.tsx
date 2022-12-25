@@ -2,6 +2,7 @@ import React from 'react';
 import MuiButton from './component/MuiButton';
 import MuiCheckBox from './component/MuiCheckBox';
 import MuiRadioButton from './component/MuiRadioButton';
+import MuiRating from './component/MuiRating';
 import MuiSelect from './component/MuiSelect';
 import MuiSwitch from './component/MuiSwitch';
 import MuiTextField from './component/MuiTextField';
@@ -19,7 +20,8 @@ const App = (props: Props) => {
 			{/* <MuiRadioButton /> */}
 			{/* <MuiCheckBox /> */}
 
-			<MuiSwitch />
+			{/* <MuiSwitch /> */}
+			<MuiRating />
 		</div>
 	);
 };

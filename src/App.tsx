@@ -1,5 +1,7 @@
 import React from 'react';
 import MuiButton from './component/MuiButton';
+import MuiCheckBox from './component/MuiCheckBox';
+import MuiRadioButton from './component/MuiRadioButton';
 import MuiSelect from './component/MuiSelect';
 import MuiTextField from './component/MuiTextField';
 import MuiTypography from './component/MuiTypography';
@@ -12,7 +14,9 @@ const App = (props: Props) => {
 			{/* <MuiTypography /> */}
 			{/* <MuiButton /> */}
 			{/* <MuiTextField /> */}
-			<MuiSelect />
+			{/* <MuiSelect /> */}
+			{/* <MuiRadioButton /> */}
+			<MuiCheckBox />
 		</div>
 	);
 };

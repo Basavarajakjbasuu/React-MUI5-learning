@@ -3,6 +3,7 @@ import MuiButton from './component/MuiButton';
 import MuiCheckBox from './component/MuiCheckBox';
 import MuiRadioButton from './component/MuiRadioButton';
 import MuiSelect from './component/MuiSelect';
+import MuiSwitch from './component/MuiSwitch';
 import MuiTextField from './component/MuiTextField';
 import MuiTypography from './component/MuiTypography';
 
@@ -16,7 +17,9 @@ const App = (props: Props) => {
 			{/* <MuiTextField /> */}
 			{/* <MuiSelect /> */}
 			{/* <MuiRadioButton /> */}
-			<MuiCheckBox />
+			{/* <MuiCheckBox /> */}
+
+			<MuiSwitch />
 		</div>
 	);
 };
